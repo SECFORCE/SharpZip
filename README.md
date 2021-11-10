@@ -10,6 +10,6 @@ If errors occurs while trying to read a file, for example: if the file is locked
 Sharp.exe <dir> <zip_file> [retryCount: default=5]
 
 Example:
-Sharp.exe C:\temp\ c:\ahchive.zip 10
+Sharp.exe C:\temp\ c:\archive.zip 10
 ~~~
 
