@@ -74,10 +74,10 @@ namespace SharpZip
 			{
 				if(args.Length!=2 && args.Length!=3)
 				{
-					Console.WriteLine("Sharp.exe <dir> <zip_file> [retryCount: default=5]");
+					Console.WriteLine("SharpZip.exe <dir> <zip_file> [retryCount: default=5]");
 					Console.WriteLine();
 					Console.WriteLine("Example:");
-					Console.WriteLine(@"Sharp.exe C:\temp\ c:\ahchive.zip 10");
+					Console.WriteLine(@"SharpZip.exe C:\temp\ c:\ahchive.zip 10");
 					return;
 				}
 
