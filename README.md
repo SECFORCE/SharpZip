@@ -7,9 +7,9 @@ It compresses a specified folder to a zip file.
 If errors occurs while trying to read a file, for example: if the file is locked, SharpZip will retry 5 times (by default) and will ignore the file if all retries fail.
 
 ~~~
-Sharp.exe <dir> <zip_file> [retryCount: default=5]
+SharpZip.exe <dir> <zip_file> [retryCount: default=5]
 
 Example:
-Sharp.exe C:\temp\ c:\archive.zip 10
+SharpZip.exe C:\temp\ c:\archive.zip 10
 ~~~
 
